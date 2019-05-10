@@ -1,6 +1,6 @@
 # Package and release your helm chart using azure devops
 
-If you to not have enough permissions on your azure subscription use the fallback by creating a `Kubernetes Service Connection`  [here :blue_book:](azuredevops_service_connection.md)!
+If you do not have enough permissions on your azure subscription use the fallback by creating a `Kubernetes Service Connection`  [here :blue_book:](azuredevops_service_connection.md)!
 
 > Make sure to check for the current helm version via azure shell:
 ```
