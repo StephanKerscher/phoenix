@@ -8,7 +8,7 @@
 5. Apply the yaml file `kubectl apply -f filename`. Make sure you delete all resources you want to recreate to avoid confuision. (`kubectl delete...`)
 
 ## Include the yaml with your build pipeline
-1. If everything worked as expexted, modify the image section to target a placeholder `latest` or  `#{Build.BuildNumber}#` instead of a specific version. Check in your yaml file into your repo.
+1. If everything worked as expected, modify the image section to target a placeholder `latest` or  `#{Build.BuildNumber}#` instead of a specific version. Check in your yaml file into your repo.
 2. For automation create a build pipeline in azure devops (use the same you already have for your container builds)
 3. Add a build artifact in the pipeline. 
 4. Save and queue a build.
